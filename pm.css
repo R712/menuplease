@@ -32,6 +32,20 @@ body {
   width: 25%;
   text-align: center;
 }
+.grid button:last-child {
+  display: block;
+  width: 100%;
+}
+form {
+  display: flex;
+  margin: 16px 0;
+}
+form input {
+  flex: 1;
+}
+input + button {
+  margin-left: 8px;
+}
 button {
   padding: 0 16px;
   height: 48px;
