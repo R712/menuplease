@@ -2,5 +2,13 @@
 }
 .grid ul {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+}
+.grid ul li {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
 }
