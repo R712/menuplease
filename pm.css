@@ -1,104 +1,123 @@
 * {
-  box-sizing: border-box;
-  outline: none;
+    box-sizing: border-box;
+    outline: none;
 }
+
 body {
-  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
-  font-size: 16px;
-  line-height: 1.5;
-  cursor: default;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+    font-size: 16px;
+    line-height: 1.5;
+    cursor: default;
 }
+
 .container {
-  display: flex;;
-  flex-direction: column;
-  margin: 0 auto;
-  max-width: 800px;
-  color: #24292e;
+    display: flex;
+    ;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 800px;
+    color: #24292e;
 }
+
 .grid ul {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  max-width: 800px;
-  padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 800px;
+    padding: 0;
 }
+
 .grid li {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  list-style: none;
-  margin: 0;
-  padding: 40px 0;
-  width: 25%;
-  border: 1px solid transparent;
-  font-size: 18px;
-  text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 40px 0;
+    width: 25%;
+    border: 1px solid transparent;
+    font-size: 18px;
+    text-align: center;
 }
+
 .grid li button {
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 32px;
-  height: 32px;
-  padding: 0;
-  border: 0;
-  background: none;
-  font-size: 12px;
-  line-height: 32px;
-  opacity: .4;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    border: 0;
+    background: none;
+    font-size: 12px;
+    line-height: 32px;
+    opacity: .4;
 }
+
 .grid li:hover {
-  border: 1px solid #d1d5da;
-  background: #fafbfc;
-  border-radius: 3px;
-  font-weight: 500;
+    border: 1px solid #d1d5da;
+    background: #fafbfc;
+    border-radius: 3px;
+    font-weight: 500;
 }
+
 .grid li:hover button {
-  opacity: 1;
+    opacity: 1;
 }
+
 .grid > button:last-child {
-  display: block;
-  width: 100%;
+    display: block;
+    width: 100%;
 }
-form {
-  display: flex;
-  margin: 16px 0;
+
+footer {
+    display: flex;
+    margin: 16px 0;
 }
-form input {
-  flex: 1;
+
+footer input {
+    flex: 1;
 }
+
 input + button {
-  margin-left: 8px;
+    margin-left: 8px;
 }
+
 button {
-  padding: 0 16px;
-  height: 48px;
-  border: 1px solid rgba(27,31,35,.2);
-  background-color: #eff3f6;
-  background-image: linear-gradient(-180deg,#fafbfc,#eff3f6 90%);
-  color: #24292e;
-  line-height: 48px;
-  border-radius: 2px;
+    padding: 0 16px;
+    height: 48px;
+    border: 1px solid rgba(27, 31, 35, .2);
+    background-color: #eff3f6;
+    background-image: linear-gradient(-180deg, #fafbfc, #eff3f6 90%);
+    color: #24292e;
+    line-height: 48px;
+    border-radius: 2px;
 }
+
 button:hover {
-  border: 1px solid rgba(27,31,35,.35);
-  background-color: #e6ebf1;
-  background-image: linear-gradient(-180deg, #f0f3f6, #e6ebf1 90%);
-  background-position: -.5em;
+    border: 1px solid rgba(27, 31, 35, .35);
+    background-color: #e6ebf1;
+    background-image: linear-gradient(-180deg, #f0f3f6, #e6ebf1 90%);
+    background-position: -.5em;
 }
+
 input[type=text] {
-  padding: 0 8px;
-  height: 48px;
-  border: 1px solid #d1d5dA;
-  background: #fff;
-  border-radius: 2px;
-  box-shadow: inset 0 1px 2px rgba(27,31,35,.075);
+    padding: 0 8px;
+    height: 48px;
+    border: 1px solid #d1d5dA;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: inset 0 1px 2px rgba(27, 31, 35, .075);
 }
+
 input[type=text]:focus {
-  border-color: #2188ff;
-  box-shadow: inset 0 1px 2px rgba(27,31,35,.075), 0 0 0 0.2em rgba(3,102,214,.3);
+    border-color: #2188ff;
+    box-shadow: inset 0 1px 2px rgba(27, 31, 35, .075), 0 0 0 0.2em rgba(3, 102, 214, .3);
 }
-button, input, a {
-  cursor: pointer;
+
+button,
+input,
+a {
+    cursor: pointer;
 }
