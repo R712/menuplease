@@ -23,6 +23,7 @@ body {
   justify-content: center;
 }
 .grid ul li {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,7 +33,15 @@ body {
   width: 25%;
   text-align: center;
 }
-.grid button:last-child {
+.grid li button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 40px;
+  height: 40px;
+  background: tran
+}
+.grid > button:last-child {
   display: block;
   width: 100%;
 }
