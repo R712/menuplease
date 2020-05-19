@@ -20,6 +20,7 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   max-width: 800px;
+  padding: 0;
   justify-content: center;
 }
 .grid li {
@@ -32,6 +33,7 @@ body {
   padding: 40px 0;
   width: 25%;
   border: 1px solid transparent;
+  font-size: 18px;
   text-align: center;
 }
 .grid li button {
