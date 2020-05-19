@@ -21,7 +21,6 @@ body {
   flex-wrap: wrap;
   max-width: 800px;
   padding: 0;
-  justify-content: center;
 }
 .grid li {
   position: relative;
@@ -53,6 +52,7 @@ body {
   border: 1px solid #d1d5da;
   background: #fafbfc;
   border-radius: 3px;
+  font-weight: 500;
 }
 .grid li:hover button {
   opacity: 1;
