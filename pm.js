@@ -4,4 +4,13 @@ $(function(){
   $('.grid li > button').click(function(){
     $(this).parent('li').fadeOut(200);
   });
+  function addMenu() {
+    var menuItem = `<li></li>`
+    var menuValue = $('form input').val();
+    if (menuValue === '') {
+      alert("You must write something!");
+    } else {
+      $('.grid ul').appendChild(menuItem).html(menuValue);
+    }
+  }
 });
