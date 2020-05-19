@@ -22,7 +22,7 @@ body {
   max-width: 800px;
   justify-content: center;
 }
-.grid ul li {
+.grid li {
   position: relative;
   display: flex;
   align-items: center;
@@ -31,15 +31,29 @@ body {
   margin: 0;
   padding: 40px 0;
   width: 25%;
+  border: 1px solid transparent;
   text-align: center;
 }
 .grid li button {
   position: absolute;
   right: 0;
   top: 0;
-  width: 40px;
-  height: 40px;
-  background: tran
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 0;
+  background: none;
+  font-size: 12px;
+  line-height: 32px;
+  opacity: .4;
+}
+.grid li:hover {
+  border: 1px solid #d1d5da;
+  background: #fafbfc;
+  border-radius: 3px;
+}
+.grid li:hover button {
+  opacity: 1;
 }
 .grid > button:last-child {
   display: block;
